@@ -3,7 +3,7 @@ python无网络源码编译 安装ssl 等问题报错
 
 # 第一步， python官网下载源代码并解压  
 进入解压目录：  
-./configure --prefix=/opt/sunke/python378 --with-openssl=/usr/local/ssl  
+./configure --prefix=/opt/sunke/python378    
 make -j8  
 make install
 
